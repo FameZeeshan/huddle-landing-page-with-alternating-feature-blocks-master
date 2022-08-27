@@ -16,7 +16,18 @@ img {
   width: 100%;
   height: auto;
 }
+h2,
+h3 {
+  color: hsl(192, 100%, 9%);
+}
+p {
+  color: hsl(208, 11%, 55%);
+}
 
+header {
+  background-image: url(./images/bg-hero-mobile.svg);
+  background-size: cover;
+}
 .logo-container {
   display: flex;
   justify-content: flex-start;
@@ -30,6 +41,7 @@ img {
 }
 .footer {
   padding: 2rem;
+  background-color: hsl(192, 100%, 9%);
 }
 .footer-location {
   display: flex;
@@ -46,10 +58,20 @@ img {
 .footer2-b {
   display: flex;
   flex-direction: column;
+  padding: 0.5rem;
 }
 .footer2-c {
   display: flex;
   flex-direction: column;
+  padding: 0.5rem;
+}
+.footer2-d {
+  display: flex;
+  justify-content: center;
+}
+.box1 {
+  background-image: url(./images/bg-hero-mobile.svg);
+  background-size: cover;
 }
 .box1-a {
   display: flex;
@@ -72,6 +94,7 @@ img {
   align-items: center;
   text-align: center;
 }
+
 .box3-a {
   display: flex;
   align-items: center;
@@ -102,4 +125,11 @@ img {
   justify-content: center;
   align-content: center;
   text-align: center;
+}
+
+p.footer3 {
+  color: white;
+}
+a.footer {
+  text-decoration: none;
 }
