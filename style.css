@@ -12,10 +12,10 @@ a {
 li {
   list-style: none;
 }
-/* img {
+img {
   width: 100%;
   height: auto;
-} */
+}
 /* header {
   display: flex;
   justify-content: space-around;
@@ -34,4 +34,65 @@ li {
   justify-content: flex-end;
   align-content: center;
   padding: 0.5rem;
+}
+.footer-location {
+  display: flex;
+  gap: 1rem;
+}
+.footer-phone {
+  display: flex;
+  gap: 1rem;
+}
+.footer-email {
+  display: flex;
+  gap: 1rem;
+}
+.footer2-b {
+  display: flex;
+  flex-direction: column;
+}
+.footer2-c {
+  display: flex;
+  flex-direction: column;
+}
+.box1-a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.box1-b {
+  display: flex;
+
+  align-items: center;
+}
+.box2-a {
+  display: flex;
+  align-items: center;
+}
+.box2-b {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.box3-a {
+  display: flex;
+  align-items: center;
+}
+.box3-b {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.box4-a {
+  display: flex;
+  align-items: center;
+}
+.box4-b {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.box5 {
+  display: flex;
+  justify-content: center;
 }
