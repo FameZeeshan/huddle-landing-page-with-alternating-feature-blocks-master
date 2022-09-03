@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
 /* font-family: "Poppins", sans-serif; */
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+
 /* font-family: 'Open Sans', sans-serif; */
 * {
     box-sizing: border-box;
@@ -221,4 +222,32 @@ header {
 }
 .footer3-end p{
   color: white;
+}
+
+@media screen and (min-width: 375px) {
+  .container{
+    background-image: url(./images/bg-hero-desktop.svg);
+    
+  }
+
+  .box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .box3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .box4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
