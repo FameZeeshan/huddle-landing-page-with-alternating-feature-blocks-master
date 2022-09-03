@@ -152,12 +152,12 @@ header {
   text-align: center;
   padding-right: 50px;
    */
-   /* display: flex;
+   display: flex;
     justify-content: center;
     text-align: center;
     z-index: 1;
     position: relative;
-    bottom: -120px; */
+    bottom: -120px;
 }
 
 .footer3-end {
