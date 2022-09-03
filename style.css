@@ -217,6 +217,7 @@ header {
 .footer2-d {
   display: flex;
   justify-content: center;
+  gap: .5rem;
 }
 .footer3-end p{
   color: white;
