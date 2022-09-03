@@ -55,7 +55,10 @@ header {
 }
 /* for mobile logo height is reduced */
 .logo img{
+  display: flex;
   height: 20px;
+  width: 90px;
+  align-items: flex-start;
 }
 .list-container {
   
