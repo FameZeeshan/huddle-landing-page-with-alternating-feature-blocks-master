@@ -50,6 +50,7 @@ header {
   display: flex;
   /* padding-left: 10px; */
   padding-top: 10px;
+  align-items: flex-start;
   
 }
 /* for mobile logo height is reduced */
