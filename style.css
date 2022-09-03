@@ -40,6 +40,7 @@ h3 {
 }
 p {
   color: hsl(208, 11%, 55%);
+  width: 70%;
 }
 
 header {
@@ -99,7 +100,6 @@ header {
 }
 .box1-b {
   display: flex;
-
   align-items: center;
 }
 .box2{
@@ -191,6 +191,14 @@ header {
 }
 .footer1{
   padding-top: 5px;
+  padding-bottom: 5px;
+  /* background-color: aqua; */
+  
+}
+.footer1 img{
+  max-width:20%;
+    height:auto;
+    background-color: inherit;
 }
 .footer2{
   
@@ -202,6 +210,7 @@ header {
 }
 .footer-location p{
   color: white;
+  width: 40%;
 }
 .footer-phone {
   display: flex;
@@ -210,6 +219,7 @@ header {
 }
 .footer-phone p{
   color: white;
+  width: auto;
 }
 .footer-email {
   display: flex;
@@ -243,6 +253,12 @@ header {
     /* background-image: url(./images/bg-hero-desktop.svg); */
     
   }
+  .box1{
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
   .box2{
   padding-bottom: 10px;
   background-color: red;
