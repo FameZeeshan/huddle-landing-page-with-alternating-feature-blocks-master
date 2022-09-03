@@ -239,6 +239,7 @@ header {
   display: flex;
   flex-direction: column;
   padding: 0.5rem;
+  
 }
 .footer2-c {
   display: flex;
@@ -253,7 +254,9 @@ header {
 .footer3-end p{
   color: white;
 }
-
+.location-address p{
+  width: auto;
+}
 @media screen and (min-width: 600px) {
   .container{
     background-image: url(./images/bg-hero-desktop.svg);
