@@ -152,15 +152,15 @@ header {
     display: flex;
     justify-content: center;
     text-align: center;   
-    
+    background-color: white;
   
 }
 .box5-a{
-  background: burlywood;
+  background: rgb(235, 224, 210);
   width: 95%;
   z-index: 1;
-    position: relative;
-    bottom: -90px;
+  position: relative;
+  bottom: -90px;
   padding: 60px;
   border-radius: 20px;
 }
@@ -206,7 +206,9 @@ header {
 }
 .footer2{
   
+  
 }
+
 .footer-location {
   display: flex;
   gap: 1rem;
@@ -254,7 +256,7 @@ header {
 
 @media screen and (min-width: 600px) {
   .container{
-    /* background-image: url(./images/bg-hero-desktop.svg); */
+    background-image: url(./images/bg-hero-desktop.svg);
     
   }
   .box1{
@@ -262,33 +264,45 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
   .box2{
   padding-bottom: 10px;
-  background-color: red;
+  background-color: white;
   display: flex;
   align-items: center;
   justify-content: center;
 }
   .box3{
   padding-bottom: 10px;
-  background-color: green;
+  background-color: white;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .box4{
   padding-bottom: 10px;
-  background-color: blue;
+  background-color: white;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .box5{
   padding-bottom: 10px;
-  background-color: purple;
+  background-color: white;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+.box5-a{
+  background: rgb(235, 224, 210);
+  width: 70%;
+  z-index: 1;
+    position: relative;
+    bottom: -90px;
+  padding: 60px;
+  border-radius: 20px;
+}
+
+
 }
