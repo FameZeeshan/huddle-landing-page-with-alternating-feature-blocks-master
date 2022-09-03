@@ -44,6 +44,7 @@ p {
 header {
   
   padding-bottom: 20px;
+  
 }
 
 .logo-container {
@@ -82,40 +83,7 @@ header {
   background-image: url(./images/bg-hero-mobile.svg);
   padding: 1rem;
 }
-.footer {
-  padding: 2rem;
-  background-color: hsl(192, 100%, 9%);
-  color: white;
-}
-.footer1{
-  padding-top: 5px;
-}
-.footer-location {
-  display: flex;
-  gap: 1rem;
-}
-.footer-phone {
-  display: flex;
-  gap: 1rem;
-}
-.footer-email {
-  display: flex;
-  gap: 1rem;
-}
-.footer2-b {
-  display: flex;
-  flex-direction: column;
-  padding: 0.5rem;
-}
-.footer2-c {
-  display: flex;
-  flex-direction: column;
-  padding: 0.5rem;
-}
-.footer2-d {
-  display: flex;
-  justify-content: center;
-}
+
 .box1 {
   background-image: url(./images/bg-hero-mobile.svg);
   background-size: cover;
@@ -194,12 +162,62 @@ header {
   text-align: center;
 }
 
-p.footer3 {
-  color: white;
-}
+
 .box1-btn {
   background-color: hsl(322, 100%, 66%);
 
   padding: 1rem;
   border-radius: 40px;
+}
+.footer {
+  padding: 2rem;
+  background-color: hsl(192, 100%, 9%);
+  color: white;
+}
+.footer1{
+  padding-top: 5px;
+}
+.footer2{
+  
+}
+.footer-location {
+  display: flex;
+  gap: 1rem;
+  padding-bottom: .5rem;
+}
+.footer-location p{
+  color: white;
+}
+.footer-phone {
+  display: flex;
+  gap: 1rem;
+  padding-bottom: .5rem;
+}
+.footer-phone p{
+  color: white;
+}
+.footer-email {
+  display: flex;
+  gap: 1rem;
+  padding-bottom: .5rem;
+}
+.footer-email p{
+  color: white;
+}
+.footer2-b {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+}
+.footer2-c {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+}
+.footer2-d {
+  display: flex;
+  justify-content: center;
+}
+.footer3-end p{
+  color: white;
 }
