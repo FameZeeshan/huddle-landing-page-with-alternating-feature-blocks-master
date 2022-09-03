@@ -3,9 +3,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
 /* font-family: 'Open Sans', sans-serif; */
 * {
-  /* margin: 0;
-  padding: 0;
-  font-size: 18px; */
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
@@ -45,27 +42,49 @@ p {
 }
 
 header {
-  background-image: url(./images/bg-hero-mobile.svg);
-  background-size: cover;
+  
+  padding-bottom: 20px;
 }
+
 .logo-container {
   display: flex;
   padding-left: 10px;
   padding-top: 10px;
   
 }
+/* for mobile logo height is reduced */
+.logo img{
+  height: 20px;
+}
 .list-container {
+  
   display: flex;
   justify-content: flex-end;
   align-content: center;
   padding-right: 10px;
-  margin-top: -40px;
+  margin-top: -30px;
+  height: 20px;
+}
+/* for mobile button size */
+.list-container button{
+  font-size: x-small;
+  padding: 10px;
+  background-color: aquamarine;
+  border: 12px;
+  font-weight: 800;
 }
 
+.container{
+  background-image: url(./images/bg-hero-mobile.svg);
+  padding: 1rem;
+}
 .footer {
   padding: 2rem;
   background-color: hsl(192, 100%, 9%);
   color: white;
+}
+.footer1{
+  padding-top: 5px;
 }
 .footer-location {
   display: flex;
@@ -144,22 +163,26 @@ header {
   gap: 1rem;
 }
 .box5 {
-  /* background-color: grey;
-  
+  background-color: inherit;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  padding-right: 50px;
-   */
-   display: flex;
-    justify-content: center;
-    text-align: center;
-    z-index: 1;
-    position: relative;
-    bottom: -120px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  
+  
 }
-
+.box5-btn button{
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+  padding: 10px;
+  border-top: 20px;
+  border-bottom: 20px;
+  border-right: 40px;
+  border-left: 40px;
+  border-radius: 50px;
+}
 .footer3-end {
   display: flex;
   justify-content: center;
